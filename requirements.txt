@@ -1,0 +1,6 @@
+# opencv-contrib-python incluye todo opencv-python; no instalar ambos (chocan).
+# Se fija <5: en OpenCV 5 el detector Haar (modo "rostros") ya no viene incluido.
+opencv-contrib-python>=4.9,<5
+mediapipe>=0.10.20
+numpy>=1.26
+pygrabber>=0.2; sys_platform == "win32"  # nombres de cámaras en Windows

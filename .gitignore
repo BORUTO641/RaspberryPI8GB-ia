@@ -1,0 +1,14 @@
+# Entornos y cachés
+.venv/
+__pycache__/
+*.pyc
+
+# Resultados de las pruebas (capturas con caras, detecciones)
+salida/
+
+# Fotos de prueba con personas
+prueba.jpg
+temp_moondream.jpg
+
+# Guía con credenciales de la Raspberry (solo local)
+GUIA_RASPBERRY.txt

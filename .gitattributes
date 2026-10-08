@@ -1,0 +1,4 @@
+# Saltos de linea Unix en el repo (lo usa tambien la Raspberry Pi)
+* text=auto eol=lf
+*.task binary
+*.jpg binary
